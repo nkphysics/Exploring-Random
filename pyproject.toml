@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "How Random"
+version = "0.1.0"
+description = "A project started from pure annoyance to test how random, random number generators are."
+authors = ["Tsar Bomba Nick <njkuechel@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+setuptools-rust = "^1.2.0"
+numpy = "^1.22.3"
+matplotlib = "^3.5.1"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+maturin = "^0.12.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
