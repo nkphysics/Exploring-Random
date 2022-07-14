@@ -10,6 +10,7 @@ setuptools-rust = "^1.2.0"
 numpy = "^1.22.3"
 matplotlib = "^3.5.1"
 pandas = "^1.4.2"
+tqdm = "^4.64.0"
 
 [tool.poetry.dev-dependencies]
 maturin = "^0.12.12"
